@@ -1,0 +1,13 @@
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+.copyright a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.copyright a:hover {
+    color: black;
+}

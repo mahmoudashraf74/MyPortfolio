@@ -1,0 +1,31 @@
+.certification {
+    background: #15222b;
+    color: white;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    border-bottom: 1 px solid #1d303c;
+}
+.certification h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+.certification ul {
+    list-style: none;
+}
+.certification li {
+    padding: 10px;
+    font-size: 20px;
+}
+.certification .c-icon {
+    color: var(--main-color);
+    margin-right: 10px;
+}
+.certification .drive {
+    color: white;
+    text-decoration: none;
+}
+
+.certification .drive:hover {
+    color: var(--main-color);
+    text-decoration: none;
+}

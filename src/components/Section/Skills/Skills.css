@@ -1,0 +1,51 @@
+/*******************************************************/
+.skills {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-color: #15222b;
+  color: white;
+}
+.prog-holder {
+  margin-bottom: 15px;
+}
+.prog-holder h4 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.prog-holder .prog {
+  background-color: #dedadc;
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.prog-holder .prog span {
+  display: block;
+  background-color: var(--main-color);
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.prog-holder .prog span::before {
+  content: attr(data-progress);
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: -40px;
+  right: -18px;
+  padding: 4px 0;
+  width: 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+.prog-holder .prog span::after {
+  content: "";
+  position: absolute;
+  border-width: 8px;
+  border-style: solid;
+  border-color: black transparent transparent;
+  right: -8px;
+  top: -15px;
+}

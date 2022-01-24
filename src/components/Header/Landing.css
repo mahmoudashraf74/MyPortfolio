@@ -1,0 +1,57 @@
+.landing {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 10%;
+}
+
+.overlay h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+.overlay h1 span {
+    color: var(--main-color);
+}
+.overlay h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.overlay .btn-get-started {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 35px 10px 35px;
+    transition: 0.5s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    text-decoration: none;
+}
+.overlay .btn-get-started:hover {
+    border-color: #fff;
+    background: var(--main-color);
+}
+.icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .overlay h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+#about {
+  background-color: #f0f4f8;
+}
+.about-icons {
+  padding: 10px;
+  text-align: center;
+  color: 525252;
+}
+.icon {
+  font-size: 70pt;
+  padding: 10px;
+}
+
+.about-icons h2 {
+  color: #525252;
+}
+.about-icons p {
+  color: #525252;
+  line-height: 2;
+  font-size: 20px;
+  font-style: oblique;
+}

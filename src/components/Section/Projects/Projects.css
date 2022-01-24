@@ -1,0 +1,93 @@
+.project {
+  padding-bottom: var(--section-padding);
+}
+/*Filter button*/
+.btn-filter {
+  text-align: center;
+  padding-bottom: var(--section-padding);
+}
+.btn-filter .active {
+  background-color: var(--main-color);
+  font-size: 20px;
+  color: white;
+}
+.btn-filter Button {
+  color: black;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.btn-filter Button:hover {
+  border-color: var(--main-color);
+}
+
+/**************************/
+.project-contianer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: ro;
+}
+.project-contianer .box {
+  position: relative;
+  overflow: hidden;
+}
+.box {
+  height: 17rem;
+  margin: 10px;
+}
+.box img {
+  max-width: 100%;
+  transition: 0.3s;
+  height: 100%;
+}
+.box:hover img {
+  transform: scale(1.1);
+}
+.box:hover .caption {
+  bottom: 0;
+}
+.card-body {
+  position: absolute;
+  left: 0;
+  padding: 30px;
+  background-color: white;
+  width: 100%;
+  transition: 0.3s;
+  bottom: -100%;
+}
+.card-title {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+.button {
+  text-align: center;
+  padding: 10px;
+}
+.btn-card {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid var(--main-color);
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+}
+.btn-card:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+.githup-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.live-icon {
+  margin-left: 10px;
+  font-size: 20px;
+}
