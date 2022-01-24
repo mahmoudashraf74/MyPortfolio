@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.f006ff6e.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.fc1fecc5.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.fc1fecc5.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.55624469.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.55624469.js.map",
+    "static/css/2.a81a36b9.chunk.css": "/MyPortfolio/static/css/2.a81a36b9.chunk.css",
+    "static/js/2.96c3beea.chunk.js": "/MyPortfolio/static/js/2.96c3beea.chunk.js",
+    "static/js/2.96c3beea.chunk.js.map": "/MyPortfolio/static/js/2.96c3beea.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/2.a81a36b9.chunk.css.map": "/MyPortfolio/static/css/2.a81a36b9.chunk.css.map",
+    "static/css/main.f006ff6e.chunk.css.map": "/MyPortfolio/static/css/main.f006ff6e.chunk.css.map",
+    "static/js/2.96c3beea.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.96c3beea.chunk.js.LICENSE.txt",
+    "static/media/4.d583f0bf.jpg": "/MyPortfolio/static/media/4.d583f0bf.jpg",
+    "static/media/5.87788738.jpg": "/MyPortfolio/static/media/5.87788738.jpg",
+    "static/media/6.e9d2ccca.jpg": "/MyPortfolio/static/media/6.e9d2ccca.jpg",
+    "static/media/foody.edf84f01.jpg": "/MyPortfolio/static/media/foody.edf84f01.jpg",
+    "static/media/moviesland.d0f990c4.png": "/MyPortfolio/static/media/moviesland.d0f990c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55624469.js",
+    "static/css/2.a81a36b9.chunk.css",
+    "static/js/2.96c3beea.chunk.js",
+    "static/css/main.f006ff6e.chunk.css",
+    "static/js/main.fc1fecc5.chunk.js"
+  ]
+}
